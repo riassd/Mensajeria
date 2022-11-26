@@ -4,7 +4,8 @@ Created on Thu Nov  3 17:21:28 2022
 
 @author: GMIPC
 """
-
+import os
+os.environ.get('KEY')
 from flask import Flask
 import os
 from twilio.rest import Client
